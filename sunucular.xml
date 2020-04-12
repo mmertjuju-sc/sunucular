@@ -6,10 +6,13 @@ Default MTA ServerF6 autoF6 22003F6
 Default MTA ServerF7 autoF7 22003F7
 Default MTA ServerLEVEL autoLEVEL 22003LEVEL
 Default MTA ServerLOGİN autoLOGİN 22003LOGİN
-Default MTA ServerCW autoCW 22003CW
 Default MTA ServerGOREV autoGOREV 22003GOREV
+Default MTA ServerCW autoCW 22003CW
+Default MTA ServerSS autoSS 22003SS
 
 VDD|Vortex Destruction Derby TURKEY/DD  TDD/MX/FUN/Türkiye/Turk/MTD/GOREV 185.255.92.67GOREV 22903GOREV
 
 [MM]Mutable Monsters Clan War Server [TR]CW 185.255.92.67CW 23003CW
+[MM]Mutable Monsters Clan War Server [TR]SS 185.255.92.67SS 23003SS
+
 {WW} Watch The Way Clan War Server [TR]CW 185.255.92.67CW 23433CW
