@@ -7,6 +7,8 @@ Default MTA ServerF7 autoF7 22003F7
 Default MTA ServerLEVEL autoLEVEL 22003LEVEL
 Default MTA ServerLOGİN autoLOGİN 22003LOGİN
 Default MTA ServerGOREV autoGOREV 22003GOREV
+Default MTA ServerwinPanel autowinPanel 22003winPanel
+Default MTA ServermapStats automapStats 22003mapStats
 Default MTA ServerCW autoCW 22003CW
 Default MTA ServerSS autoSS 22003SS
 
