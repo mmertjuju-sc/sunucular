@@ -1,1 +1,3 @@
-keyName = "26.88.244.64"
+serverList = {
+  keyName = "26.88.244.64",
+}
