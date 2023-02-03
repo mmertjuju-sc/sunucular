@@ -599,7 +599,7 @@ end
 end)
 
 addEvent("onPlayerRaceWasted", true)
-addEventHandler("onPlayerWasted",root,
+addEventHandler("onPlayerRaceWasted",root,
 function()
 for playerKey, player in ipairs(getAlivePlayers ()) do
 local driving, vehicle = isPedDrivingVehicle ( player )
