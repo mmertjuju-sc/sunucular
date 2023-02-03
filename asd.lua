@@ -629,7 +629,7 @@ setClanData(ortakveri,"odul",odul + 1)
 --takimamesajver(ortakveri," total championships: "..birincilik + 1)
 local birincilikx = birincilik+1
 --outputChatBox(renk.."*clan: "..RenkliTakimAdi(ortakveri)..renk.." was the champion. [total championships: "..birincilikx.."]",root,255,0,0,true)
-outputChatBox(renk.."["..RenkliTakimAdi(ortakveri)..renk.."] Takımı 1 Puan Kazandı. [Toplam:"..kazanmax.."]",root,255,0,0,true)
+outputChatBox(renk.."["..RenkliTakimAdi(ortakveri)..renk.."] Takımı Şampiyon oldu. [Toplam:"..birincilikx.."]",root,255,0,0,true)
 if ayar("ayar26") == "Hepsi" then
 for k,v in pairs(rankTable) do
 setClanData(tostring(v[4]),"kazanma",0)
@@ -651,8 +651,6 @@ else
 --takimamesajver(ortakveri," clan points for need "..ayar("ayar1").." players.")
 --outputChatBox(renk.."*clan: not enough players to earn clan points.",root,255,0,0,true)
 outputChatBox(renk.."*clan: puan kazanmak icin yeterli oyuncu yok.",root,255,0,0,true)
-
-
 end
 end
 end
