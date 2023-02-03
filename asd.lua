@@ -629,7 +629,7 @@ setClanData(ortakveri,"odul",odul + 1)
 --takimamesajver(ortakveri," total championships: "..birincilik + 1)
 local birincilikx = birincilik+1
 --outputChatBox(renk.."*clan: "..RenkliTakimAdi(ortakveri)..renk.." was the champion. [total championships: "..birincilikx.."]",root,255,0,0,true)
-outputChatBox(renk.."*clan: "..RenkliTakimAdi(ortakveri)..renk.." takimi sampiyon oldu. [toplam: "..birincilikx.."]",root,255,0,0,true)
+outputChatBox(renk.."["..RenkliTakimAdi(ortakveri)..renk.."] Takımı 1 Puan Kazandı. [Toplam:"..kazanmax.."]",root,255,0,0,true)
 if ayar("ayar26") == "Hepsi" then
 for k,v in pairs(rankTable) do
 setClanData(tostring(v[4]),"kazanma",0)
