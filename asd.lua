@@ -621,7 +621,7 @@ setClanData(ortakveri,"kazanma", kazanma + 1)
 --takimamesajver(ortakveri," total wins: "..kazanma + 1)
 local kazanmax = kazanma+1
 --outputChatBox(renk.."*clan: "..RenkliTakimAdi(ortakveri)..renk.." has earned 1 points. [total wins: "..kazanmax.."]",root,255,0,0,true)
-outputChatBox(renk.."*clan: "..RenkliTakimAdi(ortakveri)..renk.." takimi 1 puan kazandi. [toplam: "..kazanmax.."]",root,255,0,0,true)
+outputChatBox(renk.."["..RenkliTakimAdi(ortakveri)..renk.."] Takımı 1 Puan Kazandı. [Toplam:"..kazanmax.."]",root,255,0,0,true)
 rankTableRefresh(ortakveri)
 elseif (kazanma + 1) == ayar("ayar2") then
 setClanData(ortakveri,"birincilik",birincilik + 1)
