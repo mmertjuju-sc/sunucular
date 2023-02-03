@@ -598,9 +598,7 @@ kilit = true
 end
 end)
 
-addEvent("onPlayerRaceWasted", true)
-addEventHandler("onPlayerRaceWasted",root,
-function()
+function wasd()
 for playerKey, player in ipairs(getAlivePlayers ()) do
 local driving, vehicle = isPedDrivingVehicle ( player )
 local dim = getElementDimension(player)
@@ -658,7 +656,10 @@ outputChatBox(renk.."*clan: puan kazanmak icin yeterli oyuncu yok.",root,255,0,0
 end
 end
 end
-end)
+end
+addEvent("onPlayerRaceWasted", true)
+addEventHandler("onPlayerRaceWasted",root,wasd)
+addEventHandler("onPlayerQuit",root,wasd)
 
 
 
